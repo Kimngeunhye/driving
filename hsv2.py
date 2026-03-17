@@ -20,9 +20,6 @@ print(f"Hue 최소값: {h_min}, 최대값: {h_max}")
 print(f"Saturation 최소값: {s_min}, 최대값: {s_max}")
 print(f"Value 최소값: {v_min}, 최대값: {v_max}")
 
-# HSV 범위를 사용하여 색상 범위 정의
-# 여기에 범위가 이미지 전체 범위가 아닌 특정 색상 영역을 추출하도록 조정할 수 있습니다.
-
 # 자동으로 설정된 HSV 범위를 기반으로 색상 범위 정의
 lower_bound = np.array([h_min, s_min, v_min])
 upper_bound = np.array([h_max, s_max, v_max])
