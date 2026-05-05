@@ -251,7 +251,7 @@ def get_line_pos(img, lines, left=False, right=False):
 
 def stop(all_lines, flag, line_count, stop_time):
     line_len = all_lines
-    print("all_lilnes", line_len)
+    print("all_lines", line_len)
 
     if (line_count == 0) and (line_len > 30):
         flag = 1
